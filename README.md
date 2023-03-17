@@ -1,11 +1,11 @@
-About r-grates
-==============
+About r-grates-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-grates-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.reconverse.org/grates/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-grates-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a coherent interface and implementation for creating grouped date classes. This package is part of the RECON (<https://www.repidemicsconsortium.org/>) toolkit for outbreak analysis.
 
