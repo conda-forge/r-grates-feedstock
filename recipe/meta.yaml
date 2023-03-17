@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "1.0.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grates_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grates/grates_{{ version }}.tar.gz
-  sha256: 718ec582fedc075f880a664a322832077e4366dd181708c4735797406404eea8
+  sha256: deb661ea5520cc2406602578f81a535f732820fb5c549d91b7852c1504d75c75
 
 build:
   merge_build_host: true  # [win]
