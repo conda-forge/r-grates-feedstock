@@ -1,7 +1,6 @@
 {% set version = "1.2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-grates
@@ -14,8 +13,7 @@ source:
   sha256: 191b671f6c59548a97b3357b886c228335e72df1863bb86dd29459b4bdcc1beb
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
