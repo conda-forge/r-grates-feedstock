@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grates_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grates/grates_{{ version }}.tar.gz
-  sha256: 7331782fb409e75ebde6a8e897b71a31d85dbcc986a59cba86851e4edc260184
+  sha256: 7bdd2327f00a11ac82d905c807187eeaf37dc2a573d744aaaa308c58d4eaf4f5
 
 build:
   number: 0
