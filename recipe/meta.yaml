@@ -25,17 +25,11 @@ requirements:
 
   host:
     - r-base
-    - r-clock
-    - r-ellipsis
-    - r-rlang
-    - r-vctrs >=0.5.0
+    - r-fastymd
 
   run:
     - r-base
-    - r-clock
-    - r-ellipsis
-    - r-rlang
-    - r-vctrs >=0.5.0
+    - r-fastymd
 
 test:
   commands:
