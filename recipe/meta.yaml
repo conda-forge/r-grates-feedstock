@@ -1,4 +1,4 @@
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grates_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grates/grates_{{ version }}.tar.gz
-  sha256: e290f77861511cab8e7ca0c7981820a16016f603dd3e61e4fe40973a41f7ff16
+  sha256: 4717f47cbddc24c594290cb818c152bdb21085fe8125209e2bfb288f5a55e4dc
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
