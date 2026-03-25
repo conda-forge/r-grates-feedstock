@@ -1,4 +1,4 @@
-{% set version = "1.7.2" %}
+{% set version = "1.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grates_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grates/grates_{{ version }}.tar.gz
-  sha256: c8f15770f5a169694a542919d63edb24d62b132f13cb829fbc09287e0be4c9fb
+  sha256: 96b506b61d1cddd6c25a40678f23ec75a4a329c27b7cc016cbbeec4c1615a30c
 
 build:
   number: 0
